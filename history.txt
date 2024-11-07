@@ -1,0 +1,53 @@
+  805  mkdir git-majonez
+  806  cd git-majonez/
+  807  git init
+  808  touch main.cpp
+  809  code .
+  810  git status
+  811  git diff
+  812  less main.cpp
+  813  git add .
+  814  git status
+  815  git commit -m"Initial commit"
+  816  vim main.cpp 
+  817  git status
+  818  git add .
+  819  git commit -m"Farewell changed"
+  820  git help branch
+  821  git remote add origin git@github.com:TodorokiBoy/git-majonez.git
+  822  git branch
+  823  git branch -M main
+  824  git branch
+  825  git push -u origin main
+  826  ls ~/.ssh
+  827  ssh-keygen -t ed25519 -C "twoj_email@example.com"
+  828  ls ~/.ssh
+  829  eval "$(ssh-agent -s)"
+  830  ssh-add ~/.ssh/id_ed25519
+  831  ssh-keygen -t ed25519 -C "piotrekzywczok@gmail.com"
+  832  ls ~/.ssh
+  833  eval "$(ssh-agent -s)"
+  834  ssh-add ~/.ssh/id_ed25519
+  835  cat ~/.ssh/id_ed25519.pub
+  836  ssh -T git@github.com
+  837  git push -u origin main
+  838  clear
+  839  git branch cs
+  840  git checkout cs
+  841  git log
+  842  git reset --hard 6eacc91b69e5823517dea65f55f3696bb0ac7ec0
+  843  git log
+  844  vim main.cpp
+  845  git add .
+  846  git commit -m"Greetings"
+  847  git push origin cs
+  848  git checkout main
+  849  git merge cs
+  850  git status
+  851  git add .
+  852  git commit
+  853  git log --pretty=oneline --graph
+  854  touch history.txt
+  855  history | tail -n50
+  856  history | tail -n80
+  857  history | tail -n53 > history.txt
